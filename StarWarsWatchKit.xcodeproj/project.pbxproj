@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FED5A41AE388DF00FFD444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5A31AE388DF00FFD444 /* main.m */; };
+		42FED5A71AE388DF00FFD444 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5A61AE388DF00FFD444 /* AppDelegate.m */; };
+		42FED5AA1AE388DF00FFD444 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5A91AE388DF00FFD444 /* ViewController.m */; };
+		42FED5AD1AE388DF00FFD444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5AB1AE388DF00FFD444 /* Main.storyboard */; };
+		42FED5AF1AE388DF00FFD444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5AE1AE388DF00FFD444 /* Images.xcassets */; };
+		42FED5B21AE388DF00FFD444 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5B01AE388DF00FFD444 /* LaunchScreen.xib */; };
+		42FED5BE1AE388DF00FFD444 /* StarWarsWatchKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5BD1AE388DF00FFD444 /* StarWarsWatchKitTests.m */; };
+		42FED5D11AE388F200FFD444 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5D01AE388F200FFD444 /* InterfaceController.m */; };
+		42FED5D31AE388F200FFD444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5D21AE388F200FFD444 /* Images.xcassets */; };
+		42FED5D71AE388F200FFD444 /* StarWarsWatchKit WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5D61AE388F200FFD444 /* StarWarsWatchKit WatchKit App.app */; };
+		42FED5DF1AE388F200FFD444 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5DD1AE388F200FFD444 /* Interface.storyboard */; };
+		42FED5E11AE388F200FFD444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5E01AE388F200FFD444 /* Images.xcassets */; };
+		42FED5E41AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 42FED5CB1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42FED5F01AE3893000FFD444 /* DetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5ED1AE3893000FFD444 /* DetailInterfaceController.m */; };
+		42FED5F11AE3893000FFD444 /* CharacterTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FED5EF1AE3893000FFD444 /* CharacterTableRow.m */; };
+		42FED5F31AE38C3F00FFD444 /* Characters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42FED5F21AE38C3F00FFD444 /* Characters.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FED5B81AE388DF00FFD444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FED5961AE388DF00FFD444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FED59D1AE388DF00FFD444;
+			remoteInfo = StarWarsWatchKit;
+		};
+		42FED5D81AE388F200FFD444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FED5961AE388DF00FFD444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FED5D51AE388F200FFD444;
+			remoteInfo = "StarWarsWatchKit WatchKit App";
+		};
+		42FED5E21AE388F200FFD444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FED5961AE388DF00FFD444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FED5CA1AE388F200FFD444;
+			remoteInfo = "StarWarsWatchKit WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42FED5EB1AE388F200FFD444 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42FED5E41AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42FED59E1AE388DF00FFD444 /* StarWarsWatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsWatchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FED5A21AE388DF00FFD444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FED5A31AE388DF00FFD444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42FED5A51AE388DF00FFD444 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42FED5A61AE388DF00FFD444 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42FED5A81AE388DF00FFD444 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42FED5A91AE388DF00FFD444 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42FED5AC1AE388DF00FFD444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FED5AE1AE388DF00FFD444 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42FED5B11AE388DF00FFD444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42FED5B71AE388DF00FFD444 /* StarWarsWatchKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsWatchKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FED5BC1AE388DF00FFD444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FED5BD1AE388DF00FFD444 /* StarWarsWatchKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsWatchKitTests.m; sourceTree = "<group>"; };
+		42FED5CB1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StarWarsWatchKit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FED5CE1AE388F200FFD444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FED5CF1AE388F200FFD444 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		42FED5D01AE388F200FFD444 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		42FED5D21AE388F200FFD444 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42FED5D61AE388F200FFD444 /* StarWarsWatchKit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWarsWatchKit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FED5DC1AE388F200FFD444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FED5DE1AE388F200FFD444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		42FED5E01AE388F200FFD444 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42FED5EC1AE3893000FFD444 /* DetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInterfaceController.h; sourceTree = "<group>"; };
+		42FED5ED1AE3893000FFD444 /* DetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInterfaceController.m; sourceTree = "<group>"; };
+		42FED5EE1AE3893000FFD444 /* CharacterTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTableRow.h; sourceTree = "<group>"; };
+		42FED5EF1AE3893000FFD444 /* CharacterTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTableRow.m; sourceTree = "<group>"; };
+		42FED5F21AE38C3F00FFD444 /* Characters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Characters.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FED59B1AE388DF00FFD444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5B41AE388DF00FFD444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5C81AE388F200FFD444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FED5951AE388DF00FFD444 = {
+			isa = PBXGroup;
+			children = (
+				42FED5A01AE388DF00FFD444 /* StarWarsWatchKit */,
+				42FED5BA1AE388DF00FFD444 /* StarWarsWatchKitTests */,
+				42FED5CC1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension */,
+				42FED5DA1AE388F200FFD444 /* StarWarsWatchKit WatchKit App */,
+				42FED59F1AE388DF00FFD444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FED59F1AE388DF00FFD444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FED59E1AE388DF00FFD444 /* StarWarsWatchKit.app */,
+				42FED5B71AE388DF00FFD444 /* StarWarsWatchKitTests.xctest */,
+				42FED5CB1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension.appex */,
+				42FED5D61AE388F200FFD444 /* StarWarsWatchKit WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FED5A01AE388DF00FFD444 /* StarWarsWatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5A51AE388DF00FFD444 /* AppDelegate.h */,
+				42FED5A61AE388DF00FFD444 /* AppDelegate.m */,
+				42FED5A81AE388DF00FFD444 /* ViewController.h */,
+				42FED5A91AE388DF00FFD444 /* ViewController.m */,
+				42FED5AB1AE388DF00FFD444 /* Main.storyboard */,
+				42FED5AE1AE388DF00FFD444 /* Images.xcassets */,
+				42FED5B01AE388DF00FFD444 /* LaunchScreen.xib */,
+				42FED5A11AE388DF00FFD444 /* Supporting Files */,
+			);
+			path = StarWarsWatchKit;
+			sourceTree = "<group>";
+		};
+		42FED5A11AE388DF00FFD444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5A21AE388DF00FFD444 /* Info.plist */,
+				42FED5A31AE388DF00FFD444 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FED5BA1AE388DF00FFD444 /* StarWarsWatchKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5BD1AE388DF00FFD444 /* StarWarsWatchKitTests.m */,
+				42FED5BB1AE388DF00FFD444 /* Supporting Files */,
+			);
+			path = StarWarsWatchKitTests;
+			sourceTree = "<group>";
+		};
+		42FED5BB1AE388DF00FFD444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5BC1AE388DF00FFD444 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FED5CC1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5CF1AE388F200FFD444 /* InterfaceController.h */,
+				42FED5D01AE388F200FFD444 /* InterfaceController.m */,
+				42FED5EE1AE3893000FFD444 /* CharacterTableRow.h */,
+				42FED5EF1AE3893000FFD444 /* CharacterTableRow.m */,
+				42FED5EC1AE3893000FFD444 /* DetailInterfaceController.h */,
+				42FED5ED1AE3893000FFD444 /* DetailInterfaceController.m */,
+				42FED5D21AE388F200FFD444 /* Images.xcassets */,
+				42FED5CD1AE388F200FFD444 /* Supporting Files */,
+			);
+			path = "StarWarsWatchKit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		42FED5CD1AE388F200FFD444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5F21AE38C3F00FFD444 /* Characters.plist */,
+				42FED5CE1AE388F200FFD444 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FED5DA1AE388F200FFD444 /* StarWarsWatchKit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5DD1AE388F200FFD444 /* Interface.storyboard */,
+				42FED5E01AE388F200FFD444 /* Images.xcassets */,
+				42FED5DB1AE388F200FFD444 /* Supporting Files */,
+			);
+			path = "StarWarsWatchKit WatchKit App";
+			sourceTree = "<group>";
+		};
+		42FED5DB1AE388F200FFD444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FED5DC1AE388F200FFD444 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FED59D1AE388DF00FFD444 /* StarWarsWatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FED5C11AE388DF00FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKit" */;
+			buildPhases = (
+				42FED59A1AE388DF00FFD444 /* Sources */,
+				42FED59B1AE388DF00FFD444 /* Frameworks */,
+				42FED59C1AE388DF00FFD444 /* Resources */,
+				42FED5EB1AE388F200FFD444 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FED5E31AE388F200FFD444 /* PBXTargetDependency */,
+			);
+			name = StarWarsWatchKit;
+			productName = StarWarsWatchKit;
+			productReference = 42FED59E1AE388DF00FFD444 /* StarWarsWatchKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42FED5B61AE388DF00FFD444 /* StarWarsWatchKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FED5C41AE388DF00FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKitTests" */;
+			buildPhases = (
+				42FED5B31AE388DF00FFD444 /* Sources */,
+				42FED5B41AE388DF00FFD444 /* Frameworks */,
+				42FED5B51AE388DF00FFD444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FED5B91AE388DF00FFD444 /* PBXTargetDependency */,
+			);
+			name = StarWarsWatchKitTests;
+			productName = StarWarsWatchKitTests;
+			productReference = 42FED5B71AE388DF00FFD444 /* StarWarsWatchKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42FED5CA1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FED5E81AE388F200FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKit WatchKit Extension" */;
+			buildPhases = (
+				42FED5C71AE388F200FFD444 /* Sources */,
+				42FED5C81AE388F200FFD444 /* Frameworks */,
+				42FED5C91AE388F200FFD444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FED5D91AE388F200FFD444 /* PBXTargetDependency */,
+			);
+			name = "StarWarsWatchKit WatchKit Extension";
+			productName = "StarWarsWatchKit WatchKit Extension";
+			productReference = 42FED5CB1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		42FED5D51AE388F200FFD444 /* StarWarsWatchKit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FED5E51AE388F200FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKit WatchKit App" */;
+			buildPhases = (
+				42FED5D41AE388F200FFD444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StarWarsWatchKit WatchKit App";
+			productName = "StarWarsWatchKit WatchKit App";
+			productReference = 42FED5D61AE388F200FFD444 /* StarWarsWatchKit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FED5961AE388DF00FFD444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MAEDAHAJIME;
+				TargetAttributes = {
+					42FED59D1AE388DF00FFD444 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42FED5B61AE388DF00FFD444 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 42FED59D1AE388DF00FFD444;
+					};
+					42FED5CA1AE388F200FFD444 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42FED5D51AE388F200FFD444 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 42FED5991AE388DF00FFD444 /* Build configuration list for PBXProject "StarWarsWatchKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FED5951AE388DF00FFD444;
+			productRefGroup = 42FED59F1AE388DF00FFD444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FED59D1AE388DF00FFD444 /* StarWarsWatchKit */,
+				42FED5B61AE388DF00FFD444 /* StarWarsWatchKitTests */,
+				42FED5CA1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension */,
+				42FED5D51AE388F200FFD444 /* StarWarsWatchKit WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FED59C1AE388DF00FFD444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FED5AD1AE388DF00FFD444 /* Main.storyboard in Resources */,
+				42FED5B21AE388DF00FFD444 /* LaunchScreen.xib in Resources */,
+				42FED5AF1AE388DF00FFD444 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5B51AE388DF00FFD444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5C91AE388F200FFD444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FED5F31AE38C3F00FFD444 /* Characters.plist in Resources */,
+				42FED5D71AE388F200FFD444 /* StarWarsWatchKit WatchKit App.app in Resources */,
+				42FED5D31AE388F200FFD444 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5D41AE388F200FFD444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FED5DF1AE388F200FFD444 /* Interface.storyboard in Resources */,
+				42FED5E11AE388F200FFD444 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FED59A1AE388DF00FFD444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FED5AA1AE388DF00FFD444 /* ViewController.m in Sources */,
+				42FED5A71AE388DF00FFD444 /* AppDelegate.m in Sources */,
+				42FED5A41AE388DF00FFD444 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5B31AE388DF00FFD444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FED5BE1AE388DF00FFD444 /* StarWarsWatchKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FED5C71AE388F200FFD444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FED5F11AE3893000FFD444 /* CharacterTableRow.m in Sources */,
+				42FED5F01AE3893000FFD444 /* DetailInterfaceController.m in Sources */,
+				42FED5D11AE388F200FFD444 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42FED5B91AE388DF00FFD444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FED59D1AE388DF00FFD444 /* StarWarsWatchKit */;
+			targetProxy = 42FED5B81AE388DF00FFD444 /* PBXContainerItemProxy */;
+		};
+		42FED5D91AE388F200FFD444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FED5D51AE388F200FFD444 /* StarWarsWatchKit WatchKit App */;
+			targetProxy = 42FED5D81AE388F200FFD444 /* PBXContainerItemProxy */;
+		};
+		42FED5E31AE388F200FFD444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FED5CA1AE388F200FFD444 /* StarWarsWatchKit WatchKit Extension */;
+			targetProxy = 42FED5E21AE388F200FFD444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42FED5AB1AE388DF00FFD444 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FED5AC1AE388DF00FFD444 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FED5B01AE388DF00FFD444 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FED5B11AE388DF00FFD444 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		42FED5DD1AE388F200FFD444 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FED5DE1AE388F200FFD444 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FED5BF1AE388DF00FFD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42FED5C01AE388DF00FFD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FED5C21AE388DF00FFD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarWarsWatchKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42FED5C31AE388DF00FFD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarWarsWatchKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42FED5C51AE388DF00FFD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarWarsWatchKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsWatchKit.app/StarWarsWatchKit";
+			};
+			name = Debug;
+		};
+		42FED5C61AE388DF00FFD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarWarsWatchKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsWatchKit.app/StarWarsWatchKit";
+			};
+			name = Release;
+		};
+		42FED5E61AE388F200FFD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = StarWarsWatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "StarWarsWatchKit WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		42FED5E71AE388F200FFD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = StarWarsWatchKit_WatchKit_Extension;
+				INFOPLIST_FILE = "StarWarsWatchKit WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		42FED5E91AE388F200FFD444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StarWarsWatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42FED5EA1AE388F200FFD444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "StarWarsWatchKit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FED5991AE388DF00FFD444 /* Build configuration list for PBXProject "StarWarsWatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FED5BF1AE388DF00FFD444 /* Debug */,
+				42FED5C01AE388DF00FFD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FED5C11AE388DF00FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FED5C21AE388DF00FFD444 /* Debug */,
+				42FED5C31AE388DF00FFD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FED5C41AE388DF00FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FED5C51AE388DF00FFD444 /* Debug */,
+				42FED5C61AE388DF00FFD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FED5E51AE388F200FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FED5E61AE388F200FFD444 /* Debug */,
+				42FED5E71AE388F200FFD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FED5E81AE388F200FFD444 /* Build configuration list for PBXNativeTarget "StarWarsWatchKit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FED5E91AE388F200FFD444 /* Debug */,
+				42FED5EA1AE388F200FFD444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FED5961AE388DF00FFD444 /* Project object */;
+}

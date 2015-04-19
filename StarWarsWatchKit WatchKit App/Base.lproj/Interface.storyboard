@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FKf-lj-5m5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--SWWiki-->
+        <scene sceneID="HTZ-uK-fSy">
+            <objects>
+                <controller title="SWWiki" id="FKf-lj-5m5" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="Characters" id="Afp-ij-XfA">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <table alignment="left" id="5lU-bE-vs9">
+                            <items>
+                                <tableRow identifier="CharacterRow" id="ttt-75-dgR" customClass="CharacterTableRow">
+                                    <group key="rootItem" width="1" height="73.5" alignment="left" layout="vertical" spacing="0.0" id="buI-dt-Qfs">
+                                        <items>
+                                            <label alignment="left" text="Name" id="vfU-KO-ai1">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                            <group width="1" alignment="left" id="HXG-Ch-gRc">
+                                                <items>
+                                                    <imageView width="50" height="50" alignment="left" id="kRf-wQ-xbI"/>
+                                                    <label alignment="left" text="Role" textAlignment="right" numberOfLines="0" id="pHJ-Av-HcX">
+                                                        <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="kRf-wQ-xbI" id="Hgh-AW-Mhp"/>
+                                        <outlet property="name" destination="vfU-KO-ai1" id="ijE-lq-Dfx"/>
+                                        <outlet property="role" destination="pHJ-Av-HcX" id="G96-i2-4P7"/>
+                                        <segue destination="CdW-gp-t1T" kind="push" identifier="characterDetailSegue" id="Ax4-jr-oSX"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="characterTable" destination="5lU-bE-vs9" id="YhS-Nd-Zpp"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="621" y="137"/>
+        </scene>
+        <!--Detail Interface Controller-->
+        <scene sceneID="tp3-WJ-JgC">
+            <objects>
+                <controller id="CdW-gp-t1T" customClass="DetailInterfaceController">
+                    <items>
+                        <imageView width="1" alignment="left" id="XIt-HD-PPg"/>
+                        <label alignment="left" text="Label" id="vTw-eo-BlA">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Label" numberOfLines="0" id="SP3-T3-nZt">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label alignment="left" text="Label" numberOfLines="0" id="6hs-Bj-2uY"/>
+                    </items>
+                    <connections>
+                        <outlet property="bio" destination="6hs-Bj-2uY" id="BKx-fz-jii"/>
+                        <outlet property="image" destination="XIt-HD-PPg" id="fBH-tg-ijg"/>
+                        <outlet property="name" destination="vTw-eo-BlA" id="MPc-5f-Ifc"/>
+                        <outlet property="role" destination="SP3-T3-nZt" id="4IH-IR-Mxx"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="834" y="137"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</document>
